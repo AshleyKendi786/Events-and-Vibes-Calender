@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events & Vibes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>✨ Events & Vibes ✨</h1>
+    <p>Where dance & fashion connect</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Filter Section -->
+    <section>
+      <h2>Upcoming Events</h2>
+      <select id="filter">
+        <option value="All">All Events</option>
+        <option value="Dance">Dance</option>
+        <option value="Fashion">Fashion</option>
+      </select>
+    </section>
+
+    <!-- Events Display -->
+    <section>
+      <div id="event-list"></div>
+    </section>
+
+    <!-- RSVP Form -->
+    <section>
+      <h2>🎟️ RSVP to an Event</h2>
+      <form id="rsvp-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <select name="event" required>
+          <option value="">Select Event</option>
+          <option>Amapiano Dance Workshop</option>
+          <option>Inter-Continental Fashion Workshop</option>
+          <option>Summer Music Festival</option>
+          <option>Vogue Nights</option>
+        </select>
+        <button type="submit">RSVP</button>
+      </form>
+    </section>
+
+    <!-- RSVP List with Edit Buttons -->
+    <section>
+        
+      <h3>RSVP List</h3>
+      <ul id="rsvp-list"></ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Events & Vibes. Built with 💖 by Kendi.
+  </footer>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>

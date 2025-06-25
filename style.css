@@ -1,0 +1,136 @@
+ * Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff3f7;
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 60px;
+}
+
+header {
+  background: #a30202;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgb(8, 223, 26)
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #48d2eb;
+}
+
+header p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-top: 30px;
+}
+
+/* Filter */
+#filter {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Event Cards */
+#event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.event-card {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.02);
+}
+
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.event-card h3 {
+  color: #a8063c;
+  margin-bottom: 5px;
+}
+
+/* RSVP Form */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgb(1, 10, 133);
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d40909;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-top: 1px solid #eee;
+  font-size: 0.85rem;
+  color: #888;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.edit button {
+  background-color: #77fafa;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.h1 h2 h3 {
+  color: #0d0155;
+}

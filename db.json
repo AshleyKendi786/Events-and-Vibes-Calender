@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Summer Music Festival",
+      "type": "Dance",
+      "date": "2025-07-15",
+      "location": "Nyali",
+      "image": "https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 2,
+      "title": "Amapiano Show",
+      "type": "Dance",
+      "date": "2025-07-22",
+      "location": "Syokimau",
+      "image": "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 3,
+      "title": "Inter-Continental Fashion Workshop",
+      "type": "Fashion",
+      "date": "2025-08-05",
+      "location": "Westlands",
+      "image": "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 4,
+      "title": "Vogue Nights",
+      "type": "Fashion",
+      "date": "2025-08-15",
+      "location": "Karen",
+      "image": "https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ],
+  "rsvps": [
+    {
+      "id": "4870",
+      "type": "Fashion",
+      "name": "Joram Wayne",
+      "email": "jorammuya@gmail.com",
+      "event": "Vogue Nights"
+    },
+    {
+      "id": "c019",
+      "type": "Fashion",
+      "name": "Rosemary Wairimu",
+      "email": "rosemarywairimu@gmail.com",
+      "event": "Inter-Continental Fashion Workshop"
+    },
+    {
+      "id": "14f8",
+      "name": "Ashley Kendi",
+      "email": "ashleykirimi34@gmail.com",
+      "event": "Summer Music Festival"
+    }
+  ]
+}
